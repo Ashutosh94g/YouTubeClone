@@ -1,12 +1,13 @@
 import React from 'react';
 import Sidebar from './Containers/Sidebar';
+import Header from './Containers/Header';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-				Header
+				<Header />
       </header>
 			<section className="App-content">
 				<article className="App-article">

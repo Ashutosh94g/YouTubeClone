@@ -1,13 +1,28 @@
 import React, { Component } from 'react';
 
+import HomeIcon from '@material-ui/icons/Home';
+import SubscriptionsIcon from '@material-ui/icons/Subscriptions';
+import WhatshotIcon from '@material-ui/icons/Whatshot';
+
+import './Sidebar.css';
+
 class Sidebar extends Component {
 	render() {
 		return (
 			<div>
 				<div>
-				<h3>Home</h3>
-				<h3>Trending</h3>
-				<h3>Subscription</h3>
+					<div className='icon'>
+						<HomeIcon />
+						<h3>Home</h3>
+					</div>
+					<div className='icon'>
+						<WhatshotIcon />
+						<h3>Trending</h3>
+					</div>
+					<div className='icon'>	
+						<SubscriptionsIcon />
+						<h3>Subscription</h3>
+					</div>
 				</div>
 				<br />
 				<div>
