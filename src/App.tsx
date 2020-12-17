@@ -1,6 +1,7 @@
 import React from 'react';
 import Sidebar from './Containers/Sidebar';
 import Header from './Containers/Header';
+import Content from './Containers/Content';
 import './App.css';
 
 function App() {
@@ -14,7 +15,7 @@ function App() {
 					<Sidebar />
 				</article>
 				<article className="App-article">
-					content
+					<Content />
 				</article>
 			</section>
     </div>

@@ -1,3 +1,14 @@
 * {
 	margin: 0;
 }
+
+.App-content {
+	display: flex;
+	flex-direction: row;
+	padding-top: 55px;
+}
+
+.App-header {
+	position: fixed;
+	display: block;
+}

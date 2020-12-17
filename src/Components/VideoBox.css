@@ -1,0 +1,14 @@
+.VideoBox > img {
+	height: 171.71px;
+	width: auto;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.VideoBox-detail > img {
+	height: 30px;
+	border-radius: 30px;
+	margin-top: 5px;
+	display: flex;
+	flex-direction: row;
+}
